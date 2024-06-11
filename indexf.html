@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms : YK</title>
+    <meta name="description" content="Creating Forms">
+    <link rel="stylesheet" href="stylef.css">
+</head>
+<h1>
+    form for Submission
+</h1>
+
+<form action="post">
+    <div>
+        <label for="username">Enter Username</label>
+        <input type="text" name="username" id="username" placeholder="Enter your username">
+    </div>
+
+    <div>
+        <input type="radio" name="Gender" id="Male">
+        <label for="Male">Male</label>
+        <!--RADIO BUTTONS (Only one is selected at a time)-->
+        <input type="radio" name="Gender" id="Female">
+        <label for="Female">Female</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="Subscribe" id="Subscribe">
+        <label for="Subscribe">Subscribe this checkbox</label>
+        <!--Checboxes are used because we can select as many as we want-->
+
+        <input type="checkbox" name="Box" id="Box">
+        <label for="Box">OK THIS BOX</label>
+    </div>
+
+
+    <div>
+        <label for="date">Enter Date</label>
+        <input type="date" name="Date"> <!--DATE TAG INPUT-->
+
+    </div>
+
+    <div>
+        <label for="email">Enter Email</label> <!--EMAIL TAG-->
+        <input type="email" name="email" id="email">
+    </div>
+
+
+    <div>
+        <label for="month">Enter Month</label>
+        <input type="month" name="month" id="month"> <!--MONTH TAG -->
+
+    </div>
+
+    <div>
+        <label for="password">Enter password</label>
+        <input type="password" name="password" id="password"  placeholder="Enter password"
+            required autofocus>
+
+    </div>
+
+    <div>
+        <input type="search" name="search" placeholder="search here" id="search">
+
+    </div>
+
+    <div>
+        <textarea name="comment" id="comment" placeholder="type a comment...." cols="30" rows="5"></textarea>
+    </div>
+
+    <div>
+        <select name="vegies" id="vegies">
+            <option value="Carrot">Carrot</option>
+            <option value="Potato">Potato</option> <!--option inside select is used for drop sown menu and selection-->
+            <option value="Coriander">Coriander</option>
+        </select>
+    </div>
+
+
+    <div>
+        <a href="tabindex.html"><input type="button" value="Done"></a> <!--BUTTON TAG -->
+
+    </div>
+
+</form>
+</body>
+
+</html>
