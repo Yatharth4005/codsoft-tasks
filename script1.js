@@ -1,0 +1,1 @@
+alert("Open the bookmark by YK")

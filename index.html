@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="file.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header" >
+        <div class="container">
+            <nav>
+                <img src="Logotask1.png" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>AI/ML Student</p>
+                <h1>Hi, I'm <span>Yatharth</span><br>Kaushik from Kota</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------About Section----------- -->
+
+    <section>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="aboutimgtask1.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <br>
+                        <br>
+                        <p class="Para">Hi, I'm Yatharth Kaushik from Kota, Rajasthan.
+                            Right now pursuing Bachelor of
+                            technology in AI/ML at Birla Institute of Technology Mesra, Ranchi one of the most
+                            prestegious
+                            GFTI. I have completed my 1st year and pursuing Intern at CodSoft in Web Development. This
+                            is my
+                            First Task of Level 1.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>CSS</span><br>Basic Web Designing</li>
+                                <li><span>Web Development using HTML</span><br>Basic Web Development</li>
+                                <li><span>Problem Solving in C</span><br>Basic Problem solving in C</li>
+                                <li><span>Communication</span><br>Fluency</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2021</span><br>Secondary Examination</li>
+                                <li><span>2022-2023</span><br>Higher Secondary Examination</li>
+                                <li><span>2023-2027</span><br>Pursuing B.Tech AI/ML</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>06/2024-Present</span><br>Intern at CodSoft</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------Portfolio----------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="calcwork3.png">
+                    <div class="layer">
+                        <h3>Simple Calculator</h3>
+                        <p>This is a Simple Calculator created with C language to tell students how a Calculator is
+                            programmed to work.</p>
+                        <a href="calcoutput.png"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="SurveyformWork.png">
+                    <div class="layer">
+                        <h3>Basic Survey Form</h3>
+                        <p>Basic BTech Survey Form to know which student knows which programming language</p>
+                        <a href="index2.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="book.png">
+                    <div class="layer">
+                        <h3>My BookMark</h3>
+                        <p>This is a Simplified Bookmark Manager created by me for ease use</p>
+                        <a href="index1.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <!-- ----------------Certifications------------------- -->
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <br>
+            <br>
+            <div class="certificate-list">
+                <div class="certificate">
+                    <img src="cer.jpg">
+                    <div class="layer1">
+                        <h3>Open for Flutter Workshop</h3>
+                        <a href="workshop.jpg"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h5></h5>
+                <br>
+                <div class="certificate">
+                    <img src="cer.jpg">
+                    <div class="layer1">
+                        <h3>Open for Literacy Training</h3>
+                        <a href="literacy.jpg"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h5></h5>
+                <br>
+                <div class="certificate">
+                    <img src="cer.jpg">
+                <div class="layer1">
+                       <h3>Open for Career Essentials by microsoft</h3>
+                       <a href="micro.png"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- --------------------Contact Section ------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> kaushiksp04@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91-8619777940</p>
+
+                        <br>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/yatharth-kaushik-0633a4290/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/k.yatharth.k/"><i
+                                    class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://x.com/YKaushik04"><i class="fa-brands fa-square-x-twitter"></i></a>
+
+                        </div>
+                        <br>
+                        <a class="btn btn2" href="YatharthKaushikResume.pdf">Open My Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright &copy; Yatharth. Made with <i class="fa-regular fa-heart"></i> by Me </p>
+            </div>
+        </div>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }    
+            
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+            
+            </script>
+</body>
+
+</html>
